@@ -45,4 +45,15 @@ public class TestMember {
 		log.info(mapper.login(vo));
 		
 	}
+	
+	@Test
+	public void testEaxm() {
+	    System.out.println("1");
+	    String name = "홍길동";
+	    System.out.println("2");
+	    assertEquals(name, "김길동");
+	    System.out.println("3");
+	    assertEquals(name, "홍길동");
+	    System.out.println("4");
+	}
 }
